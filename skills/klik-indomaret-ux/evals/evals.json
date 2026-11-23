@@ -1,0 +1,23 @@
+{
+  "skill_name": "klik-indomaret-ux",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Buatkan layar Pelacakan Pesanan untuk alur Pesan Antar Klik Indomaret, termasuk tampilan saat pesanan terlambat.",
+      "expected_output": "Merujuk ke US2, US3, US5 dan FR2, FR3, FR5. Estimasi berupa rentang. Status utama dalam satu layar. Saat terlambat ada tiga pilihan: menunggu, hubungi toko atau kurir, batalkan. Tombol hubungi ada di layar yang sama. Menyertakan checklist UXR.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Tulis teks pesan error untuk kegagalan saat membayar pesanan.",
+      "expected_output": "Menyebut apa yang terjadi, bahwa uang belum terpotong dan keranjang aman, serta tombol Coba lagi. Bahasa awam tanpa kode teknis. Mengikuti kosakata baku di ux-writing.md.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Review halaman keranjang yang tetap mengizinkan checkout meski ada barang kosong. Apa masalahnya dan bagaimana perbaikannya?",
+      "expected_output": "Menunjuk pelanggaran FR4 dan UXR4. Mengusulkan penandaan barang kosong, pilihan ganti atau hapus, dan memblokir lanjut sebelum pengguna memilih, dengan penjelasan teks. Menyertakan checklist UXR.",
+      "files": []
+    }
+  ]
+}
